@@ -9,6 +9,7 @@
   --contact-color: rgba(255, 255, 255, 0.6);
   --logo-color: #2196f3;
   --border-color: rgba(238, 238, 238, 1);
+  --footer-color: #2f303a;
 }
 body {
   background-color: #ffffff;
@@ -357,7 +358,7 @@ img {
 }
 /*footer*/
 .footer {
-  background-color: var(--hero-color);
+  background-color: var(--footer-color);
   color: var(--white-color);
   padding-top: 60px;
   padding-bottom: 60px;

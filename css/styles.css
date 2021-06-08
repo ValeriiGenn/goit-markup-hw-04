@@ -447,6 +447,7 @@ color:var(--icon-color)
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
+  box-shadow: 5px 5px 5px 5px var(--black-color);
 }
 /*портфоліо */
 

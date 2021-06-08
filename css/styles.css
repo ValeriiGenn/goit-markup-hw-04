@@ -289,6 +289,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--button-color);
+  box-shadow: inset( );
 }
 .team .list {
   display: flex;
@@ -301,6 +302,7 @@ img {
 .team-list-item {
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--white-color);
+  box-shadow: 10px 10px 10px 10px var(--black-color);
 }
 .section-title .team {
   margin-bottom: 50px;
@@ -442,8 +444,8 @@ color:var(--icon-color)
   border: 0;
   cursor: pointer;
 }
-.button .filter-list :hover,
-.button .filter-list:focus {
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
 }
 /*портфоліо */
@@ -475,6 +477,10 @@ color:var(--icon-color)
   flex-basis: calc((100% -60px) / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+.card:hover,
+.card:focus{
+  box-shadow: 10px 10px 10px 10px var(--black-color);
 }
 
 .portfolio-list-item-signature {
@@ -578,7 +584,7 @@ text-transform: uppercase;
   background-color: var(--bgicon-color);
   color: var(--white-color);
 }
-/*div{ display: block;}*/
+
 .link-icon{
   fill: currentColor;
 }

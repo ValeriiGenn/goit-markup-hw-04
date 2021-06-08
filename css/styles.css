@@ -430,8 +430,13 @@ color:var(--icon-color)
 .btn:not(:last-child) {
   margin-right: 8px;
 }
+/*.btn:hover,
+.btn:focus{background-color: var(--accent-color);
+  box-shadow: 5px 5px 5px 5px var(--black-color);
 
-.button {
+}*/
+
+.button {list-style: none;
   border-radius: 5px;
   padding: 6px 22px;
   font: inherit;

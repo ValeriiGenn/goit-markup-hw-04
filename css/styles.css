@@ -116,15 +116,20 @@ img {
 }
 .link {
   text-decoration: none;
-
 }
-.tlfn::before{ background-image: url("../images/smartphone.svg");
- display: block;
- content: "";
-  background-size: contain;}
- /*background-repeat: no-repeat;
- background-position: center;
- }*/
+.icon-tel,
+.icon-mail{display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.icon-mlto,
+.icon-tlfn{
+  fill: currentColor;
+  margin-right: 10px;}
+/*.icon-mlto:hover,
+.icon-tlfn:hover,
+.icon-mlto:focus,
+.icon-tlfn:focus{fill: var(--accent-color);}*/
 /*hero*/
 .hero-section {
   max-width: 1600px;
@@ -226,7 +231,7 @@ img {
   .icon-astronaut::before{
     background-image: url("../images/astronaut.svg");
   }
-.section-title-team,
+  .section-title-team,
 .section-title-directions {
   color: var(--black-color);
 

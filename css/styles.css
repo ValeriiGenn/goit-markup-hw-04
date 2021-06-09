@@ -126,10 +126,7 @@ img {
 .icon-tlfn{
   fill: currentColor;
   margin-right: 10px;}
-/*.icon-mlto:hover,
-.icon-tlfn:hover,
-.icon-mlto:focus,
-.icon-tlfn:focus{fill: var(--accent-color);}*/
+
 /*hero*/
 .hero-section {
   max-width: 1600px;
@@ -206,31 +203,15 @@ img {
 }
 .benefits-list-item {
   flex-basis: calc((100% - 90px) / 4);
-}.benefits-list-item::before{
-  display: block;
-  content: "";
-    height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #F5F4FA;
+}
+
+  .icon-benefits{ 
+   height: 120px;
+    background-color: #F5F4FA;
   margin-bottom: 30px;
-  /*padding: 25px 100px;*/
+  padding: 25px 100px;
   border-radius: 4px;}
-  /*svg{
-    width: 70px;
-    height: 70px;
-  }*/
-  .icon-antn::before {
-    
-    
-  background-image:url("../images/anten.svg") 
-  ;}
-  .icon-vector::before{background-image: url("../images/clock.svg");}
-  .icon-diagr::before{background-image: url("../images/diagram.svg");}
-  .icon-astronaut::before{
-    background-image: url("../images/astronaut.svg");
-  }
+ 
   .section-title-team,
 .section-title-directions {
   color: var(--black-color);
@@ -302,7 +283,7 @@ img {
 .team-list-item {
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--white-color);
-  box-shadow: 10px 10px 10px 10px var(--black-color);
+  box-shadow: 10px 10px 10px 10px var(--gray-color);
 }
 .section-title .team {
   margin-bottom: 50px;
@@ -430,11 +411,6 @@ color:var(--icon-color)
 .btn:not(:last-child) {
   margin-right: 8px;
 }
-/*.btn:hover,
-.btn:focus{background-color: var(--accent-color);
-  box-shadow: 5px 5px 5px 5px var(--black-color);
-
-}*/
 
 .button {list-style: none;
   border-radius: 5px;
@@ -452,7 +428,7 @@ color:var(--icon-color)
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
-  box-shadow: 5px 5px 5px 5px var(--black-color);
+  box-shadow: 5px 5px 5px 5px var(--gray-color);
 }
 /*портфоліо */
 
@@ -486,7 +462,7 @@ color:var(--icon-color)
 }
 .card:hover,
 .card:focus{
-  box-shadow: 10px 10px 10px 10px var(--black-color);
+  box-shadow: 10px 10px 10px 10px var(--gray-color);
 }
 
 .portfolio-list-item-signature {
